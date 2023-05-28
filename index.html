@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wiskundesommen.nl</title>
+    <link rel="stylesheet" href="style.css"></head>
+    <body>
+        <div class="container">
+            <div class="card">
+                <div class="card-inner">
+                    <button type="button" onclick="generate()">Genereer</button>
+                    <button type="button" onclick="controleer()">Controleer</button> 
+                    <br>
+                      <label>
+                        <input type="checkbox" name="operator" value="+">
+                        +
+                        </label>
+                      
+                      <label>
+                        <input type="checkbox" name="operator" value="-">
+                        -
+                        </label>
+                      <label>
+                        <input type="checkbox" name="operator" value="*">
+                        *
+                        </label>
+                      
+                      <label>
+                        <input type="checkbox" name="operator" value="/">
+                        /
+                        </label>
+                    <br>
+                    <label for="minNumber" style="font-size: 18px;">Minimaal</label>
+                    <input type="number" name="minNumber" id="minNumber" style="width: 80px;">
+
+                    <br>
+                    <label for="maxNumber" style="font-size: 18px;">Maximaal</label>
+                    <input type="number" name="maxNumber" id="maxNumber" style="width: 80px;">
+
+
+                    <br><br>
+                    <div name="som1"></div><input type="number" name="inputSom1" id="inputSom1">
+                    <div name="som2"></div><input type="number" name="inputSom2" id="inputSom2">
+                    <div name="som3"></div><input type="number" name="inputSom3" id="inputSom3">
+                    <div name="som4"></div><input type="number" name="inputSom4" id="inputSom4">
+                    <div name="som5"></div><input type="number" name="inputSom5" id="inputSom5">
+                    <br><br><br>
+                    <button id="eersteGraads" onclick="location.href='eerstegraads.html';"">Eerstegraads vergelijkingen oefenen</button>
+                </div>
+            </div>
+        </div>
+    <script src="script.js"></script>
+    </body>
+</html>
